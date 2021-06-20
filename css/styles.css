@@ -1,0 +1,39 @@
+/************************************tag selector**********************************/
+
+body {
+  background-color: #bcf1b7;
+}
+
+hr {
+  border-color: rgb(119, 4, 250);
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+
+  width: 30%;
+}
+
+
+/************************************class selector**********************************/
+.good {
+    background-color: red;
+}
+
+.bad {
+    background-color: blue;
+}
+
+.big {
+    width: 300px;
+    height: 300px;
+}
+
+.effect:hover {
+    background-color: greenyellow;
+}
+
+/************************************id selector**********************************/
+
+#heading {
+    color: rgb(161, 37, 161);
+}
